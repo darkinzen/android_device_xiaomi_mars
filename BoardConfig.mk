@@ -42,5 +42,26 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 # Recovery
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 165
 
+## Rising RE flags
+# Lunch banner maintainer variable
+RISING_MAINTAINER="Darkinzen"
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingChipset="Qualcomm Snapdragon 888" \
+    RisingMaintainer="Darkinzen"
+
+RISING_MAINTAINER := Darkinzen
+
+# Ship Pixel Launcher
+TARGET_DEFAULT_PIXEL_LAUNCHER := false
+
+# Whether to ship lawnchair launcher, false by default
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true 
+
+# CORE build flags
+WITH_GMS := true
+TARGET_USES_PICO_GAPPS := true
+
+
 # Include proprietary files
 include vendor/xiaomi/mars/BoardConfigVendor.mk
