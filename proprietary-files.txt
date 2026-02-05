@@ -908,3 +908,9 @@ vendor/firmware/st_fts_k2_htp.ftb:vendor_ramdisk/lib/firmware/st_fts_k2_htp.ftb
 
 # Vibrator firmware
 vendor/firmware/aw8697_haptic.bin
+
+# camera_qcom
+vendor/lib/libmegface.so
+vendor/lib64/libmegface.so
+vendor/lib/libMegviiFacepp-0.5.2.so
+vendor/lib64/libMegviiFacepp-0.5.2.so
