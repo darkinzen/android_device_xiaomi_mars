@@ -1,6 +1,3 @@
-# Audio hardware
-ro.hardware.audio.primary=mars
-
 # Bluetooth
 bluetooth.device.default_name=Mi 11 Pro
 
